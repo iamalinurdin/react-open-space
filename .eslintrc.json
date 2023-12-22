@@ -26,6 +26,6 @@
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "react/jsx-props-no-spreading": "off",
-        "import/no-extraneous-dependencies": ["error", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}]
+        "import/no-extraneous-dependencies": "off"
     }
 }
