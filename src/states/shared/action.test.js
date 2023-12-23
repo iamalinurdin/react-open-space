@@ -71,7 +71,7 @@ describe('asyncPopulateUsersAndTalks thunk', () => {
   it('should dispatch action and call alert correctly when data fetching failed', async () => {
     // arrange
     // stub implementation
-    api.getAllUsers = () => Promise.reject(fakeUsersResponse);
+    api.getAllUsers = () => Promise.reject(fakeErrorResponse);
     api.getAllTalks = () => Promise.reject(fakeTalksResponse);
 
     // mock dispatch
