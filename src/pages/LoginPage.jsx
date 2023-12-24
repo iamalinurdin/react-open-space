@@ -25,8 +25,10 @@ function LoginPage() {
           <strong>The World</strong>
           ,
           {' '}
-          Through Open Space App.
+          <br />
+          Through Open Space.
         </h2>
+
         <LoginInput login={onLogin} />
         <p>
           Don&apos;t have an account?
